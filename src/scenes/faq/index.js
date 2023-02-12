@@ -12,21 +12,18 @@ const FAQ = () => {
 
   return (
     <Box m="20px">
-      <Header title="FAQ" subtitle="Frequently Asked Questions Page" />
+      <Header title="FAQ" subtitle="Notes from any manager" />
 
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 1
+            Starks
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            High interest, usually die early
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -34,16 +31,14 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 2
+            Lannisters
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            take what you want, and pay when you want... 
+            They usually kill anyone who gets in the way.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -51,16 +46,13 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 3
+            Targaryens
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            A bird in the hand way is better than a dragon burning you
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -68,16 +60,14 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 4
+            Greyjoy
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            Descendant of poseidon,
+            infiltrations in their homes is a sign of blessing.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -85,16 +75,13 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 5
+            Baratheons
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            Faith and war, a dangerous combination
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -102,16 +89,41 @@ const FAQ = () => {
       <Accordion defaultExpanded>
         <AccordionSummary expandIcon={<ExpandMoreIcon />}>
           <Typography variant="h5" color={colors.greenAccent[500]}>
-            An Important Question 6
+            Martells
           </Typography>
         </AccordionSummary>
 
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum!
+            They love to hear the sound of their own voice.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion defaultExpanded>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="h5" color={colors.greenAccent[500]}>
+            Tyrells
+          </Typography>
+        </AccordionSummary>
+
+        <AccordionDetails>
+          <Typography>
+            Great manipulators, beauty is their main weapon.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion defaultExpanded>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography variant="h5" color={colors.greenAccent[500]}>
+            Boltons
+          </Typography>
+        </AccordionSummary>
+
+        <AccordionDetails>
+          <Typography>
+          Good at math, cold and calculating.
           </Typography>
         </AccordionDetails>
       </Accordion>

@@ -17,7 +17,7 @@ function LineChart({ isDashboard = false }) {
         axis: {
           domain: {
             line: {
-              stroke: colors.gray[100],
+              stroke: colors.gray[110],
             },
           },
           legend: {
@@ -41,12 +41,12 @@ function LineChart({ isDashboard = false }) {
           },
         },
 
-        tooltip: {
+        /* tooltip: {
           container: {
             color: colors.gray[900],
             background: colors.gray[100],
           },
-        },
+        }, */
       }}
       xScale={{ type: "point" }}
       yScale={{
@@ -65,7 +65,6 @@ function LineChart({ isDashboard = false }) {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: "transportation",
         legendOffset: 36,
         legendPosition: "middle",
         legend: isDashboard ? undefined : "transportation",

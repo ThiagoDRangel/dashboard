@@ -48,15 +48,15 @@ const Team = () => {
             display="flex"
             justifyContent="center"
             backgroundColor={
-              access === "admin"
+              access === "Lord"
                 ? colors.greenAccent[600]
                 : colors.greenAccent[700]
             }
             borderRadius="4px"
           >
-            {access === "admin" && <AdminPanelSettingsOutlinedIcon />}
-            {access === "manager" && <SecurityOutlinedIcon />}
-            {access === "user" && <LockOpenOutlinedIcon />}
+            {access === "Lord" && <AdminPanelSettingsOutlinedIcon />}
+            {access === "Knight" && <SecurityOutlinedIcon />}
+            {access === "Rabble" && <LockOpenOutlinedIcon />}
             <Typography sx={{ ml: "5px" }} color={colors.gray[100]}>
               {access}
             </Typography>
@@ -68,7 +68,7 @@ const Team = () => {
 
   return (
     <Box m="20px">
-      <Header title="TEAM" subtitle="Managing the Team Members" />
+      <Header title="Next Lord of the 7 Kingdoms" subtitle="main creditors" />
       <Box
         m="40px 0 0 0 "
         height="75vh"
