@@ -14,3 +14,5 @@ Após maratonar a série Game of Thrones, percebi as dificuldades em movimentar 
 ### Instalar o pacote react-router-dom
 > npm install react-router-dom@v5
 
+### Instalar MUI system
+> npm install @mui/system @emotion/react @emotion/styled
