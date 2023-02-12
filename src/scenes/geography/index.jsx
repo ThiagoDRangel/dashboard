@@ -10,7 +10,7 @@ function Index() {
   const colors = tokens(theme.palette.mode);
   return (
     <Box m="20px">
-      <Header title="GEO CHART" subtitle="Simple Geography Chart" />
+      <Header title="the seven kingdoms" subtitle="divided by region" />
       <Box
         height="75vh"
         border={`1px solid ${colors.gray[100]}`}

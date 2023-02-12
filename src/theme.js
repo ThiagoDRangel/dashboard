@@ -133,15 +133,15 @@ export const themeSettings = (mode) => {
             primary: { main: colors.primary[100] },
             secondary: { main: colors.greenAccent[500] },
             neutral: {
-              dark: colors.gray[100],
-              main: colors.gray[500],
-              light: colors.gray[100],
+              dark: colors.gray[110],
+              main: colors.gray[510],
+              light: colors.gray[110],
             },
             background: { default: colors.primary[500] },
           }
         : {
             primary: { main: colors.primary[100] },
-            secondary: { main: colors.greenAccent[500] },
+            secondary: { main: colors.greenAccent[600] },
             neutral: {
               dark: colors.gray[700],
               main: colors.gray[500],

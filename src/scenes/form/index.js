@@ -14,7 +14,7 @@ const initialValues = {
 };
 
 const phoneRegExp =
-  /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+  /^[+]?[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-\s.]?[0-9]{4,6}$/im;
 
 const userSchema = yup.object().shape({
   firstName: yup.string().required("required"),
@@ -35,7 +35,7 @@ const Form = () => {
   };
   return (
     <Box m="20px">
-      <Header title="CREATE USER" subtitle="Create a New User Profile" />
+      <Header title="Iron Bank of Braavos" subtitle="Create a New Account" />
 
       <Formik
         onSubmit={handleFormSubmit}
