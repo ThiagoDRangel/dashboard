@@ -1,11 +1,24 @@
-import React, { Component } from 'react';
+import { ColorModeContext, useMode } from './theme';
+import { CssBaseline, ThemeProvider } from '@mui/material';
+import Bar from './pages/Bar';
+import { Route, Switch } from 'react-router-dom';
 
-class App extends Component {
-  render() {
-    return (
-      <h1>1</h1>
-    );
-  }
+function App() {
+  const [theme, colorMode] = useMode();
+  return (
+    <ColorModeContext.Provider value={colorMode}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <div style={{ display: 'flex' }}>
+          <main className="content">
+            <Switch>
+              <Route path="/bar" element={<Bar />} />
+            </Switch>
+          </main>
+        </div>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
+  )
 }
 
 export default App;
