@@ -18,3 +18,5 @@ Após maratonar a série Game of Thrones, percebi as dificuldades em movimentar 
 > npm install @mui/system @emotion/react @emotion/styled
 > npm install @mui/system @mui/styled-engine-sc styled-components
 
+-----------------------------------------------------
+Install dependencies:

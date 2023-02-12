@@ -1,7 +1,7 @@
 import { useTheme } from "@emotion/react";
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import { tokens } from "../theme";
+import { tokens } from "../services/theme";
 
 const Header = ({ title, subtitle }) => {
   const theme = useTheme();
